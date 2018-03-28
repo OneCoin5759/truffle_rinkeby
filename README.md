@@ -4,7 +4,7 @@
 1、安装mist,创建帐号
 2、获取eth,方法有几种，plus.google.com 上面分享一条动态，内容为rinkeby的 address，拿到该动态的地址复制到https://faucet.rinkeby.io/获取eth
 3、启动geth:  geth --rinkeby --rpc --rpcapi db,eth,net,web3,personal --rpcport 8545 --unlock 0x3B2249987b5db4821aE2105E6Ec083d5e161A4E0 
-   稍等输入帐号密码，完成后，窗口不要关掉
+   稍等输入帐号密码，完成后，窗口不要关掉（aB123456）
 4、使用truffle创建项目，如果没安装truffle,使用命令 npm install -g truffle
 5、创建项目
     $ mkdir hello-world
